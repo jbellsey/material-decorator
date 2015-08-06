@@ -6,6 +6,7 @@ Provides a decorator which adds support for
 
 View a demo site with all the MDL samples running 
 in Aurelia [here](http://jbellsey.github.io/material-decorator/).
+The sample code is in the gh-pages branch of this repo.
 
 # Wait, what? Why?
 
