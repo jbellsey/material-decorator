@@ -10,7 +10,7 @@ var _googleMaterialDesignLite = require('google/material-design-lite');
 var _googleMaterialDesignLite2 = _interopRequireDefault(_googleMaterialDesignLite);
 
 function setupMDL() {
-    (_googleMaterialDesignLite2['default'].upgradeDom || _googleMaterialDesignLite2['default'].componentHandler.upgradeDom())();
+    (_googleMaterialDesignLite2['default'].upgradeDom || _googleMaterialDesignLite2['default'].componentHandler.upgradeDom)();
 }
 
 function enableMDL(viewModelClass) {

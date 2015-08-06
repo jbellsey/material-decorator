@@ -6,7 +6,7 @@ System.register(['google/material-design-lite'], function (_export) {
     _export('enableMDL', enableMDL);
 
     function setupMDL() {
-        (MDL.upgradeDom || MDL.componentHandler.upgradeDom())();
+        (MDL.upgradeDom || MDL.componentHandler.upgradeDom)();
     }
 
     function enableMDL(viewModelClass) {

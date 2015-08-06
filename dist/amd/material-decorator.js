@@ -9,7 +9,7 @@ define(['exports', 'google/material-design-lite'], function (exports, _googleMat
     var _MDL = _interopRequireDefault(_googleMaterialDesignLite);
 
     function setupMDL() {
-        (_MDL['default'].upgradeDom || _MDL['default'].componentHandler.upgradeDom())();
+        (_MDL['default'].upgradeDom || _MDL['default'].componentHandler.upgradeDom)();
     }
 
     function enableMDL(viewModelClass) {
