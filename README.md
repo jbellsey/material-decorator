@@ -4,6 +4,8 @@ Provides a decorator which adds support for
 [Material Design Lite](http://getmdl.io) (MDL) to an 
 [Aurelia](http://aurelia.io) view-model.
 
+View all the MDL samples running in Aurelia [here](http://jbellsey.github.io/material-decorator/).
+
 # Wait, what? Why?
 
 This is needed because MDL doesn't play nice with dynamically-generated 
