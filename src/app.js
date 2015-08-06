@@ -7,7 +7,6 @@ export class App {
     config.title = 'Material Decorator for Aurelia';
     config.map([
 
-      //---- HOME
       {
         route:    ['', 'blog'],
         name:      'blog',
