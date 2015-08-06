@@ -1,0 +1,59 @@
+/*
+  styles for the outer template; not the MDL samples
+*/
+
+#mdl-samples-nav {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  z-index: 10000;
+}
+
+#mdl-samples-nav button {
+  /*background: crimson;*/
+  transform: scale(0.75);
+}
+
+#mdl-samples-nav a {
+  display: block;;
+}
+
+/*
+#mdl-samples-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px;
+}
+
+#mdl-samples-nav li {
+  display: inline-block;
+  padding: 4px 8px;
+  margin-right: 8px;
+  background: rgba(255,255,255,0.7);
+  border: 2px solid #666;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  font-size: 9px;
+  text-transform: uppercase;
+  transition: all 0.15s;
+}
+
+#mdl-samples-nav li a {
+  color: #444;
+  text-decoration: none;
+}
+
+#mdl-samples-nav li a:hover {
+  color: #111;
+  text-decoration: underline;
+}
+
+#mdl-samples-nav li.active {
+  border: 2px solid limegreen;
+  background: #fff;
+}
+
+#mdl-samples-nav li.active a {
+  color: #111;
+}
+*/

@@ -1,0 +1,20 @@
+<template>
+
+  <!-- note: the nav is not styled with MDL -->
+  <nav id="mdl-samples-nav">
+
+    <button
+      class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored"
+      id="samples-nav">Samples</button>
+
+    <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-left" for="samples-nav">
+      <li repeat.for="row of router.navigation" class="${row.isActive ? 'active' : ''} mdl-menu__item">
+        <a href.bind="row.href">${row.title}</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- MDL samples are rendered here -->
+  <router-view containerless></router-view>
+
+</template>
