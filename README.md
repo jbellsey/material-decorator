@@ -17,6 +17,15 @@ menus, etc.).
 
 You'll need to use the provided decorator on every view-model that uses MDL.
 
+# Before you use this...
+
+There's a new version coming. This repo doesn't provide 
+any custom elements. In other words, this plugin enables, but does not simplify,
+the use of MDL.
+
+There's a new project in the works that does exactly that. If you'd like to
+help, please [email me](mailto:jbellsey@gmail.com). 
+
 # Dependencies
 
 This library has no external dependencies. However, it only makes sense in a project
